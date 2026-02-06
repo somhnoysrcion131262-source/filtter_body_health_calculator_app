@@ -1,4 +1,4 @@
-import 'package:filtter_body_health_calculator_app/view/splash_screen_ui.dart';
+import 'package:flutter_body_health_calculator_app/view/splash_screen_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -26,7 +26,7 @@ class _FlutterBodyHealthCalculatorAppState
       debugShowCheckedModeBanner: false,
       home: SplashScreenUi(),
       theme: ThemeData(
-        textTheme: GoogleFonts.keniaTextTheme(
+        textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
         ),
       ),

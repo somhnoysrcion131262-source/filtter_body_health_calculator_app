@@ -1,6 +1,6 @@
-import 'package:filtter_body_health_calculator_app/view/about_ui.dart';
-import 'package:filtter_body_health_calculator_app/view/bmi__ui.dart';
-import 'package:filtter_body_health_calculator_app/view/bmr_ui.dart';
+import 'about_ui.dart';
+import 'bmr_ui.dart';
+import 'bmi__ui.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -26,7 +26,7 @@ class _HomeUiState extends State<HomeUi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 101, 114, 86),
+        backgroundColor: Colors.blue,
         title: Text(
           'Body Health Calculator',
           style: TextStyle(

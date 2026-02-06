@@ -1,4 +1,4 @@
-import 'package:filtter_body_health_calculator_app/view/home_ui.dart';
+import 'home_ui.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreenUi extends StatefulWidget {
